@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-light" role="navigation" aria-label="main navigation">
       <div class="navbar-menu">
         <div class="navbar-end">
           <a class="navbar-item">Accueil</a>
@@ -11,7 +11,6 @@
         </div>
       </div>
     </nav>
-    <hr />
 
     <div id="page-accueil">
       <h1 class="title">Leïla Coquard</h1>
