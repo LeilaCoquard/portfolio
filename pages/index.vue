@@ -11,7 +11,7 @@
         </div>
       </div>
     </nav>
-
+    <br />
     <div id="page-accueil">
       <h1 class="title">Leïla Coquard</h1>
       <h2 class="subtitle">Mon portfolio</h2>
