@@ -11,6 +11,7 @@
         </div>
       </div>
     </nav>
+    <hr />
 
     <div id="page-accueil">
       <h1 class="title">Leïla Coquard</h1>
