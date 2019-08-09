@@ -2,6 +2,7 @@
   <div class="container">
     <nav class="navbar is-light" role="navigation" aria-label="main navigation">
       <div class="navbar-menu">
+        <div class="navbar-start"></div>
         <div class="navbar-end">
           <a class="navbar-item">Accueil</a>
           <a class="navbar-item">A propos</a>
