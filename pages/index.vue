@@ -2,7 +2,6 @@
   <div class="container">
     <nav class="navbar is-light" role="navigation" aria-label="main navigation">
       <div class="navbar-menu">
-        <div class="navbar-start"></div>
         <div class="navbar-end">
           <a class="navbar-item">Accueil</a>
           <a class="navbar-item">A propos</a>
@@ -12,7 +11,6 @@
         </div>
       </div>
     </nav>
-    <br />
     <div id="page-accueil">
       <h1 class="title">Leïla Coquard</h1>
       <h2 class="subtitle">Mon portfolio</h2>
@@ -31,6 +29,11 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.navbar {
+  position: absolute;
+  top: 0px;
 }
 
 .title {
