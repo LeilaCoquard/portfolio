@@ -42,7 +42,7 @@
           <div class="card-content">
             <div class="media">
               <div class="media-content">
-                <p class="title is-4">Projet formation n°2</p>
+                <p class="title is-4">Formation : projet 2</p>
                 <p class="subtitle is-6">Site Wordpress</p>
               </div>
             </div>
@@ -67,7 +67,7 @@
           <div class="card-content">
             <div class="media">
               <div class="media-content">
-                <p class="title is-4">Projet formation n°6</p>
+                <p class="title is-4">Formation : projet 6</p>
                 <p class="subtitle is-6">Jeu de plateau en JS</p>
               </div>
             </div>
@@ -216,6 +216,10 @@ h2 {
 
 .card-image {
   height: 200px;
+}
+
+.title.is-4 {
+  font-size: 1.4rem;
 }
 
 #detail-contact {
