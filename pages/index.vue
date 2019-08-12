@@ -12,8 +12,10 @@
       </div>
     </nav>
     <section id="accueil">
-      <h1 class="title">Leïla Coquard</h1>
-      <h2 class="subtitle">Développeuse web Junior</h2>
+      <div id="sous-accueil">
+        <h1 class="title">Leïla Coquard</h1>
+        <h2 class="subtitle">Développeuse web Junior</h2>
+      </div>
     </section>
 
     <section id="apropos">
@@ -88,6 +90,10 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px;
+  opacity: 0.5;
+}
+
+#sous-accueil {
   opacity: 0.5;
 }
 </style>
