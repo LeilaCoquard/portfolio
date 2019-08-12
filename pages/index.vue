@@ -91,11 +91,11 @@
       <div id="general-contact">
         <div id="detail-contact">
           <p>Leïla Coquard</p>
-          <p class="icon">
-            <i class="fas fa-phone-alt"></i> 07.68.51.99.89.
+          <p>
+            <font-awesome-icon icon="fas fa-phone-alt" />07.68.51.99.89.
           </p>
-          <p class="icon">
-            <i class="fas fa-paper-plane"></i> leilacoquard@gmail.com
+          <p>
+            <font-awesome-icon icon="fas fa-paper-plane" />leilacoquard@gmail.com
           </p>
         </div>
         <div id="form-contact">
