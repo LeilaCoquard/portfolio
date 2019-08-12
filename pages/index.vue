@@ -28,6 +28,32 @@
     <section id="mesprojets">
       <h2>Mes projets</h2>
 
+      <!--projet2-->
+      <div class="card">
+        <div class="card-image">
+          <figure class="image P2">
+            <img src="../components/Image-P2.png" alt="Projet2 image" />
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="media">
+            <div class="media-content">
+              <p class="title is-4">Projet OC 2</p>
+              <p class="subtitle is-6">Site Wordpress</p>
+            </div>
+          </div>
+
+          <div class="content">
+            Intégrez un thème Wordpress pour un client
+            <br />
+            <a href="https://chaletsetcaviar.leilacoquard.fr">Site</a>
+            <br />
+            <time datetime="2018-11-1">Novembre 2018</time>
+          </div>
+        </div>
+      </div>
+
+      <!--Projet6-->
       <div class="card">
         <div class="card-image">
           <figure class="image P6">
@@ -44,9 +70,8 @@
 
           <div class="content">
             Ce projet consiste à créer un jeu en ligne en JavaScript dans lequel 2 joueurs évoluent chacun leur tour pour s'affronter.
-            <a
-              href="http://www.projet6.leilacoquard.fr"
-            >Lien</a>
+            <br />
+            <a href="http://www.projet6.leilacoquard.fr">Site</a>
             <br />
             <time datetime="2019-3-1">Mars 2019</time>
           </div>
