@@ -70,6 +70,7 @@
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
+  text-align: center;
 }
 
 section {
@@ -82,6 +83,7 @@ h2 {
 }
 
 #accueil {
-  background-image: rgba(255, 255, 255, 0.4), url('../components/img-dev.jpg');
+  background-image: url('../components/img-dev.jpg');
+  margin: 25px;
 }
 </style>
