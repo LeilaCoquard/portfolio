@@ -88,13 +88,13 @@
     <section id="contact">
       <h2>Contact</h2>
       <h3>N'hésitez pas à me contacter pour plus d'informations</h3>
-      <div class="row" id="general-contact">
-        <div class="column" id="detail-contact">
+      <div id="general-contact">
+        <div id="detail-contact">
           <p>Leïla Coquard</p>
           <p>Tel: 07.68.51.99.89.</p>
           <p>Email : leilacoquard@gmail.com</p>
         </div>
-        <div class="column" id="form-contact">
+        <div id="form-contact">
           <div class="field">
             <label class="label">Nom</label>
             <div class="control">
@@ -219,7 +219,7 @@ h2 {
 }
 
 #general-contact {
-  display: flex;
+  text-align: center;
 }
 
 #detail-contact {
