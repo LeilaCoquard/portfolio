@@ -11,10 +11,23 @@
         </div>
       </div>
     </nav>
-    <div id="page-accueil">
+    <section id="accueil">
       <h1 class="title">Leïla Coquard</h1>
-      <h2 class="subtitle">Mon portfolio</h2>
-    </div>
+      <h2 class="subtitle">Développeuse web Junior</h2>
+    </section>
+
+    <section id="apropos">
+      <h2>A propos</h2>
+    </section>
+    <section id="moncv">
+      <h2>Mon CV</h2>
+    </section>
+    <section id="mesprojets">
+      <h2>Mes projets</h2>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+    </section>
   </div>
 </template>
 
