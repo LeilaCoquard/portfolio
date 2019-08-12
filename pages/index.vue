@@ -28,52 +28,54 @@
     <section id="mesprojets">
       <h2>Mes projets</h2>
 
-      <!--projet2-->
-      <div class="card">
-        <div class="card-image">
-          <figure class="image P2">
-            <img src="../components/Image-P2.png" alt="Projet2 image" />
-          </figure>
-        </div>
-        <div class="card-content">
-          <div class="media">
-            <div class="media-content">
-              <p class="title is-4">Projet OC 2</p>
-              <p class="subtitle is-6">Site Wordpress</p>
+      <div class="row">
+        <!--projet2-->
+        <div class="column card">
+          <div class="card-image">
+            <figure class="image P2">
+              <img src="../components/Image-P2.png" alt="Projet2 image" />
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Projet OC 2</p>
+                <p class="subtitle is-6">Site Wordpress</p>
+              </div>
+            </div>
+
+            <div class="content">
+              Intégrez un thème Wordpress pour un client
+              <br />
+              <a href="https://chaletsetcaviar.leilacoquard.fr">Site</a>
+              <br />
+              <time datetime="2018-11-1">Novembre 2018</time>
             </div>
           </div>
+        </div>
 
-          <div class="content">
-            Intégrez un thème Wordpress pour un client
-            <br />
-            <a href="https://chaletsetcaviar.leilacoquard.fr">Site</a>
-            <br />
-            <time datetime="2018-11-1">Novembre 2018</time>
+        <!--Projet6-->
+        <div class="column card">
+          <div class="card-image">
+            <figure class="image P6">
+              <img src="../components/Image-P6.png" alt="Projet6 image" />
+            </figure>
           </div>
-        </div>
-      </div>
-
-      <!--Projet6-->
-      <div class="card">
-        <div class="card-image">
-          <figure class="image P6">
-            <img src="../components/Image-P6.png" alt="Projet6 image" />
-          </figure>
-        </div>
-        <div class="card-content">
-          <div class="media">
-            <div class="media-content">
-              <p class="title is-4">Projet OC 6</p>
-              <p class="subtitle is-6">Jeu de plateau en JS</p>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Projet OC 6</p>
+                <p class="subtitle is-6">Jeu de plateau en JS</p>
+              </div>
             </div>
-          </div>
 
-          <div class="content">
-            Ce projet consiste à créer un jeu en ligne en JavaScript dans lequel 2 joueurs évoluent chacun leur tour pour s'affronter.
-            <br />
-            <a href="http://www.projet6.leilacoquard.fr">Site</a>
-            <br />
-            <time datetime="2019-3-1">Mars 2019</time>
+            <div class="content">
+              Ce projet consiste à créer un jeu en ligne en JavaScript dans lequel 2 joueurs évoluent chacun leur tour pour s'affronter.
+              <br />
+              <a href="http://www.projet6.leilacoquard.fr">Site</a>
+              <br />
+              <time datetime="2019-3-1">Mars 2019</time>
+            </div>
           </div>
         </div>
       </div>
@@ -144,7 +146,15 @@ h2 {
   padding: 100px;
 }
 
-.card {
+.column {
   width: 25%;
+}
+
+.card {
+  margin: 4px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 </style>
