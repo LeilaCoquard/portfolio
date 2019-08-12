@@ -90,7 +90,6 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px;
-  opacity: 0.5;
 }
 
 #sous-accueil {
