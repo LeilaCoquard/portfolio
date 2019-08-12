@@ -103,7 +103,7 @@
           </div>
           <div class="field">
             <label class="label">Email</label>
-            <div class="control has-icons-left has-icons-right">
+            <div class="control has-icons-right">
               <input class="input" type="email" placeholder="Email input" />
               <span class="icon is-small is-left">
                 <i class="fas fa-envelope"></i>
@@ -218,17 +218,18 @@ h2 {
   height: 200px;
 }
 
-#general-contact {
-  text-align: center;
-}
-
 #detail-contact {
   margin: 10px;
-  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #form-contact {
   margin: 10px;
-  width: 70%;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>
