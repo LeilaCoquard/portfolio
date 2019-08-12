@@ -88,7 +88,7 @@
     <section id="contact">
       <h2>Contact</h2>
       <h3>N'hésitez pas à me contacter pour plus d'informations</h3>
-      <div class="row general-contact">
+      <div class="row" id="general-contact">
         <div class="column" id="detail-contact">
           <p>Leïla Coquard</p>
           <p>Tel: 07.68.51.99.89.</p>
@@ -186,8 +186,7 @@ hr {
 h2 {
   text-align: left;
   padding: 20px;
-  font-weight: bold;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 #accueil {
