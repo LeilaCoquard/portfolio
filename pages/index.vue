@@ -22,9 +22,12 @@
       <h4>Développeuse web Junior</h4>
       <p>Après des études en statistiques, spécialisée en actuariat, j'ai intégré le milieu professionnel en tant qu'actuaire pendant 6 ans. Cette expérience a eu pour effet de me faire murrir, de développer mon sens du travail bien fait et d'apprivoiser les relations humaines en entreprise. Ces 6 ans fut entrecoupé d'un voyage d'un an autour du monde. C'est fou tout ce qu'on peut apprendre pendant un voyage, repenser complétement ses schemas de pensées. blabla...</p>
     </section>
+    <hr />
     <section id="moncv">
       <h2>Mon CV</h2>
     </section>
+    <hr />
+
     <section id="mesprojets">
       <h2>Mes projets</h2>
 
@@ -80,6 +83,8 @@
         </div>
       </div>
     </section>
+    <hr />
+
     <section id="contact">
       <h2>Contact</h2>
       <h3>N'hésitez pas à me contacter pour plus d'informations</h3>
@@ -170,6 +175,10 @@ section {
   display: block;
   float: left;
   width: 100%;
+}
+
+hr {
+  border: 1px solid rgb(62, 62, 62);
 }
 
 h2 {
