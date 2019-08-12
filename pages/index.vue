@@ -12,10 +12,8 @@
       </div>
     </nav>
     <section id="accueil">
-      <div id="sous-accueil">
-        <h1 class="title">Leïla Coquard</h1>
-        <h2 class="subtitle">Développeuse web Junior</h2>
-      </div>
+      <h1 class="title">Leïla Coquard</h1>
+      <h2 class="subtitle">Développeuse web Junior</h2>
     </section>
 
     <section id="apropos">
@@ -87,10 +85,6 @@ h2 {
 
 #accueil {
   background-image: url('../components/img-dev.jpg');
-}
-
-#sous-accueil {
-  background-color: rgba(0, 0, 0, 0.5);
-  margin: 25px;
+  padding: 50px;
 }
 </style>
