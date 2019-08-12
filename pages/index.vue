@@ -146,15 +146,20 @@ h2 {
   padding: 100px;
 }
 
+.row {
+  margin: -5px;
+}
+
 .column {
+  float: left;
   width: 25%;
 }
 
 .card {
-  margin: 4px;
+  margin: 8px;
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 </style>
