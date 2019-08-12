@@ -38,7 +38,7 @@
 .container {
   margin: 0 auto;
   min-height: 100vh;
-  display: flex;
+  /*display: flex;*/
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -51,7 +51,7 @@
 }
 
 .navbar-item {
-  padding: 10px;
+  margin: 5px 10px;
 }
 
 .title {
@@ -59,14 +59,14 @@
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 70px;
   color: #35495e;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
-  font-size: 42px;
+  font-size: 40px;
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
