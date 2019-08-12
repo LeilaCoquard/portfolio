@@ -187,6 +187,7 @@ h2 {
   text-align: left;
   padding: 20px;
   font-weight: bold;
+  font-size: 40px;
 }
 
 #accueil {
