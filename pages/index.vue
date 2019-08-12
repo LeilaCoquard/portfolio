@@ -31,25 +31,24 @@
       <div class="card">
         <div class="card-image">
           <figure class="image P6">
-            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image" />
+            <img src="../components/Image-P6.png" alt="Projet6 image" />
           </figure>
         </div>
         <div class="card-content">
           <div class="media">
             <div class="media-content">
               <p class="title is-4">Projet OC 6</p>
-              <p class="subtitle is-6">Jeu de plateau</p>
+              <p class="subtitle is-6">Jeu de plateau en JS</p>
             </div>
           </div>
 
           <div class="content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Phasellus nec iaculis mauris.
+            Ce projet consiste à créer un jeu en ligne en JavaScript dans lequel 2 joueurs évoluent chacun leur tour pour s'affronter.
             <a
-              href
-            >blabla</a>
+              href="http://www.projet6.leilacoquard.fr"
+            >Lien</a>
             <br />
-            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+            <time datetime="2019-3-1">Mars 2019</time>
           </div>
         </div>
       </div>
