@@ -12,8 +12,8 @@
       </div>
     </nav>
     <section id="accueil">
-      <h1 class="title">Leïla Coquard</h1>
-      <h2 class="subtitle">Développeuse web Junior</h2>
+      <h1 class="title-presentation">Leïla Coquard</h1>
+      <h2 class="subtitle-presentation">Développeuse web Junior</h2>
     </section>
 
     <section id="apropos">
@@ -42,7 +42,7 @@
           <div class="card-content">
             <div class="media">
               <div class="media-content">
-                <p class="title is-4">Projet OC 2</p>
+                <p class="title is-4">Projet formation n°2</p>
                 <p class="subtitle is-6">Site Wordpress</p>
               </div>
             </div>
@@ -67,7 +67,7 @@
           <div class="card-content">
             <div class="media">
               <div class="media-content">
-                <p class="title is-4">Projet OC 6</p>
+                <p class="title is-4">Projet formation n°6</p>
                 <p class="subtitle is-6">Jeu de plateau en JS</p>
               </div>
             </div>
@@ -153,7 +153,7 @@
   margin: 5px 10px;
 }
 
-.title {
+.title-presentation {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
@@ -163,7 +163,7 @@
   letter-spacing: 1px;
 }
 
-.subtitle {
+.subtitle-presentation {
   font-weight: 300;
   font-size: 40px;
   color: #526488;
