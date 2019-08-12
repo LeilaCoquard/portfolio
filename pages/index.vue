@@ -98,7 +98,7 @@
           <div class="field">
             <label class="label">Email</label>
             <div class="control has-icons-left has-icons-right">
-              <input class="input is-danger" type="email" placeholder="Email input" value="hello@" />
+              <input class="input" type="email" placeholder="Email input" />
               <span class="icon is-small is-left">
                 <i class="fas fa-envelope"></i>
               </span>
@@ -106,7 +106,6 @@
                 <i class="fas fa-exclamation-triangle"></i>
               </span>
             </div>
-            <p class="help is-danger">This email is invalid</p>
           </div>
           <div class="field">
             <label class="label">Message</label>
@@ -205,10 +204,12 @@ h2 {
 }
 
 #detail-contact {
-  width: 25%;
+  margin: 10px;
+  width: 30%;
 }
 
 #form-contact {
-  width: 75%;
+  margin: 10px;
+  width: 70%;
 }
 </style>
