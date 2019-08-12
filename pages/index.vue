@@ -66,4 +66,9 @@
   word-spacing: 5px;
   padding-bottom: 15px;
 }
+
+h2 {
+  text-align: left;
+  padding: 20px;
+}
 </style>
