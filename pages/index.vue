@@ -92,6 +92,7 @@
       <div id="general-contact">
         <div id="detail-contact">
           <p>Leïla Coquard</p>
+          <p>Montreuil, France</p>
           <p>
             <font-awesome-icon icon="phone-alt" />07.68.51.99.89.
           </p>
