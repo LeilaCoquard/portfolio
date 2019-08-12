@@ -86,11 +86,11 @@ h2 {
 }
 
 #accueil {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url('../components/img-dev.jpg');
 }
 
 #sous-accueil {
-  background-image: url('../components/img-dev.jpg');
+  background-color: rgba(0, 0, 0, 0.5);
   margin: 25px;
 }
 </style>
