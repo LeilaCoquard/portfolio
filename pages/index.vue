@@ -202,6 +202,10 @@ h2 {
   padding: 100px;
 }
 
+#apropos p {
+  margin: 20px 0;
+}
+
 .row {
   margin: -5px;
 }
