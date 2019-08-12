@@ -75,4 +75,8 @@ h2 {
   text-align: left;
   padding: 20px;
 }
+
+.accueil {
+  background-image: url('../components/img-dev.jpg');
+}
 </style>
