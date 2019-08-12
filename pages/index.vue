@@ -88,7 +88,7 @@
     <section id="contact">
       <h2>Contact</h2>
       <h3>N'hésitez pas à me contacter pour plus d'informations</h3>
-      <div class="row">
+      <div class="row general-contact">
         <div class="column" id="detail-contact">
           <p>Leïla Coquard</p>
           <p>Tel: 07.68.51.99.89.</p>
@@ -212,6 +212,10 @@ h2 {
 
 .card:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#general-contact {
+  display: flex;
 }
 
 #detail-contact {
