@@ -67,6 +67,10 @@
   padding-bottom: 15px;
 }
 
+section {
+  display: block;
+}
+
 h2 {
   text-align: left;
   padding: 20px;
