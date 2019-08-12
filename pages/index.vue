@@ -102,7 +102,7 @@
           <div class="field">
             <label class="label">Nom</label>
             <div class="control">
-              <input class="input" type="text" placeholder="Mon nom..." />
+              <input class="input" type="text" placeholder="Mon nom" />
             </div>
           </div>
           <div class="field">
