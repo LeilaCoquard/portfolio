@@ -6,8 +6,8 @@
           <a class="navbar-item" href="#accueil">Accueil</a>
           <a class="navbar-item" href="#apropos">A propos</a>
           <a class="navbar-item" href="#moncv">Mon CV</a>
-          <a class="navbar-item" href="mesprojets">Mes projets</a>
-          <a class="navbar-item" href="contact">Contact</a>
+          <a class="navbar-item" href="#mesprojets">Mes projets</a>
+          <a class="navbar-item" href="#contact">Contact</a>
         </div>
       </div>
     </nav>
@@ -82,6 +82,45 @@
     </section>
     <section id="contact">
       <h2>Contact</h2>
+      <h3>N'hésitez pas à me contacter pour plus d'informations</h3>
+      <div class="row">
+        <div class="column" id="detail-contact">
+          <p>Tel: 07.68.51.99.89.</p>
+          <p>Email : leilacoquard@gmail.com</p>
+        </div>
+        <div class="column" id="form-contact">
+          <div class="field">
+            <label class="label">Nom</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Text input" />
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control has-icons-left has-icons-right">
+              <input class="input is-danger" type="email" placeholder="Email input" value="hello@" />
+              <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+              </span>
+              <span class="icon is-small is-right">
+                <i class="fas fa-exclamation-triangle"></i>
+              </span>
+            </div>
+            <p class="help is-danger">This email is invalid</p>
+          </div>
+          <div class="field">
+            <label class="label">Message</label>
+            <div class="control">
+              <textarea class="textarea" placeholder="Textarea"></textarea>
+            </div>
+          </div>
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-link">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </div>
 </template>
@@ -130,6 +169,7 @@
 
 section {
   display: block;
+  float: left;
   width: 100%;
 }
 
@@ -157,9 +197,18 @@ h2 {
 
 .card {
   margin: 8px;
+  height: 500px;
 }
 
 .card:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#detail-contact {
+  width: 25%;
+}
+
+#form-contact {
+  width: 75%;
 }
 </style>
