@@ -76,7 +76,8 @@ h2 {
   padding: 20px;
 }
 
-.accueil {
+#accueil {
   background-image: url('../components/img-dev.jpg');
+  background-color: rgba(255, 255, 255, 0.4);
 }
 </style>
