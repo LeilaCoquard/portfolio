@@ -98,13 +98,13 @@
           <div class="field">
             <label class="label">Nom</label>
             <div class="control">
-              <input class="input" type="text" placeholder="Text input" />
+              <input class="input" type="text" placeholder="Mon nom..." />
             </div>
           </div>
           <div class="field">
             <label class="label">Email</label>
             <div class="control has-icons-right">
-              <input class="input" type="email" placeholder="Email input" />
+              <input class="input" type="email" placeholder="XXX@xxx.com" />
               <span class="icon is-small is-left">
                 <i class="fas fa-envelope"></i>
               </span>
@@ -116,7 +116,7 @@
           <div class="field">
             <label class="label">Message</label>
             <div class="control">
-              <textarea class="textarea" placeholder="Textarea"></textarea>
+              <textarea class="textarea" placeholder="Je vous contacte pour ..."></textarea>
             </div>
           </div>
           <div class="field is-grouped">
@@ -219,7 +219,7 @@ h2 {
 }
 
 #detail-contact {
-  margin: 10px;
+  margin: 30px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -231,5 +231,9 @@ h2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+label {
+  text-align: left;
 }
 </style>
