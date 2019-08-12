@@ -91,8 +91,12 @@
       <div id="general-contact">
         <div id="detail-contact">
           <p>Leïla Coquard</p>
-          <p>Tel: 07.68.51.99.89.</p>
-          <p>Email : leilacoquard@gmail.com</p>
+          <p class="icon">
+            <i class="fas fa-phone-alt"></i> 07.68.51.99.89.
+          </p>
+          <p class="icon">
+            <i class="fas fa-paper-plane"></i> leilacoquard@gmail.com
+          </p>
         </div>
         <div id="form-contact">
           <div class="field">
