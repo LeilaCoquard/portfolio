@@ -109,6 +109,7 @@ section {
 h2 {
   text-align: left;
   padding: 20px;
+  font-weight: bold;
 }
 
 #accueil {
