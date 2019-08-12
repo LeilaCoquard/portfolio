@@ -50,6 +50,10 @@
   width: 100%;
 }
 
+.navbar-item {
+  padding: 10px;
+}
+
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
