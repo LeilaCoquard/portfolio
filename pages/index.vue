@@ -21,6 +21,7 @@
       <h3>Leïla Coquard, 31 ans, en reconversion professionnelle</h3>
       <h4>Développeuse web Junior</h4>
       <p>Après des études en statistiques, spécialisée en actuariat, j'ai intégré le milieu professionnel en tant qu'actuaire pendant 6 ans. Cette expérience a eu pour effet de me faire murrir, de développer mon sens du travail bien fait et d'apprivoiser les relations humaines en entreprise. Ces 6 ans fut entrecoupé d'un voyage d'un an autour du monde. C'est fou tout ce qu'on peut apprendre pendant un voyage, repenser complétement ses schemas de pensées. blabla...</p>
+      <a class="button is-primary" href="../components/CV-DevFront-LCoquard2019.pdf">Mon CV</a>
     </section>
     <hr />
     <section id="moncv">
