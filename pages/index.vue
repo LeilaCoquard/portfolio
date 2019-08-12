@@ -118,4 +118,8 @@ h2 {
   background-size: cover;
   padding: 100px;
 }
+
+.card {
+  width: 25%;
+}
 </style>
