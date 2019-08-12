@@ -175,10 +175,11 @@ section {
   display: block;
   float: left;
   width: 100%;
+  margin: 30px;
 }
 
 hr {
-  border: 1px solid rgb(62, 62, 62);
+  border: 1px solid rgba(118, 118, 118, 0.673);
 }
 
 h2 {
