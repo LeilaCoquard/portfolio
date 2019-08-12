@@ -85,6 +85,7 @@ h2 {
 
 #accueil {
   background-image: url('../components/img-dev.jpg');
-  padding: 50px;
+  background-repeat: no-repeat;
+  padding: 70px;
 }
 </style>
