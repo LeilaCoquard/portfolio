@@ -90,6 +90,7 @@
       <h3>N'hésitez pas à me contacter pour plus d'informations</h3>
       <div class="row">
         <div class="column" id="detail-contact">
+          <p>Leïla Coquard</p>
           <p>Tel: 07.68.51.99.89.</p>
           <p>Email : leilacoquard@gmail.com</p>
         </div>
@@ -120,7 +121,7 @@
           </div>
           <div class="field is-grouped">
             <div class="control">
-              <button class="button is-link">Submit</button>
+              <button class="button is-primary">Submit</button>
             </div>
           </div>
         </div>
@@ -175,7 +176,7 @@ section {
   display: block;
   float: left;
   width: 100%;
-  margin: 30px;
+  margin: 30px 0px;
 }
 
 hr {
