@@ -92,10 +92,10 @@
         <div id="detail-contact">
           <p>Leïla Coquard</p>
           <p>
-            <font-awesome-icon icon="fas fa-phone-alt" />07.68.51.99.89.
+            <font-awesome-icon icon="phone-alt" />07.68.51.99.89.
           </p>
           <p>
-            <font-awesome-icon icon="fas fa-paper-plane" />leilacoquard@gmail.com
+            <font-awesome-icon icon="paper-plane" />leilacoquard@gmail.com
           </p>
         </div>
         <div id="form-contact">
