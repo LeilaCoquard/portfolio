@@ -47,6 +47,7 @@
 .navbar {
   position: absolute;
   top: 0px;
+  width: 100%;
 }
 
 .title {
@@ -77,7 +78,6 @@ h2 {
 }
 
 #accueil {
-  background-image: url('../components/img-dev.jpg');
-  background-color: rgba(255, 255, 255, 0.4);
+  background-image: rgba(255, 255, 255, 0.4), url('../components/img-dev.jpg');
 }
 </style>
