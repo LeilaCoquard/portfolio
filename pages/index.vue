@@ -3,11 +3,11 @@
     <nav class="navbar is-light" role="navigation" aria-label="main navigation">
       <div class="navbar-menu">
         <div class="navbar-end">
-          <a class="navbar-item">Accueil</a>
-          <a class="navbar-item">A propos</a>
-          <a class="navbar-item">Mon CV</a>
-          <a class="navbar-item">Mes projets</a>
-          <a class="navbar-item">Contact</a>
+          <a class="navbar-item" href="#accueil">Accueil</a>
+          <a class="navbar-item" href="#apropos">A propos</a>
+          <a class="navbar-item" href="#moncv">Mon CV</a>
+          <a class="navbar-item" href="mesprojets">Mes projets</a>
+          <a class="navbar-item" href="contact">Contact</a>
         </div>
       </div>
     </nav>
