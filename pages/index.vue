@@ -129,14 +129,14 @@
               name="a958579f-3736-46f5-b722-24322cdb78f3"
               value="e44fc5d0-0b52-4cb1-9f79-fefc3800d89c"
             />
-            <label class="label">Nom</label>
-            <input type="text" name="name" placeholder="Mon nom" />
-            <label class="label">Email</label>
-            <input type="email" name="email" placeholder="XXX@xxx.com" />
-            <!-- <div class="field">
+            <div class="field">
+              <label class="label">Nom</label>
+              <input type="text" name="name" placeholder="Mon nom" />
+            </div>
+            <div class="field">
               <label class="label">Email</label>
               <div class="control has-icons-right">
-                <input class="input" type="email" placeholder="XXX@xxx.com" />
+                <input type="email" name="email" placeholder="XXX@xxx.com" />
                 <span class="icon is-small is-left">
                   <i class="fas fa-envelope"></i>
                 </span>
@@ -144,11 +144,8 @@
                   <i class="fas fa-exclamation-triangle"></i>
                 </span>
               </div>
-            </div> -->
-            <label class="label">Message</label>
-            <textarea class="textarea"></textarea>
-            <!-- placeholder="Je vous contacte pour ..." -->
-            <!-- <div class="field">
+            </div>
+            <div class="field">
               <label class="label">Message</label>
               <div class="control">
                 <textarea
@@ -156,7 +153,7 @@
                   placeholder="Je vous contacte pour ..."
                 ></textarea>
               </div>
-            </div> -->
+            </div>
             <div class="field is-grouped">
               <div class="control">
                 <button class="button is-primary" type="submit">Envoyer</button>
