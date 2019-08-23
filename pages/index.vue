@@ -155,6 +155,7 @@
               <div class="control">
                 <textarea
                   class="textarea"
+                  name="message"
                   placeholder="Je vous contacte pour ..."
                 ></textarea>
               </div>
@@ -166,18 +167,6 @@
             </div>
           </form>
         </div>
-
-        <!-- Test formulaire -->
-        <form action="https://api.staticforms.xyz/submit" method="post">
-          <!-- Replace with accesKey sent to your email -->
-          <input
-            type="hidden"
-            name="accessKey"
-            value="a958579f-3736-46f5-b722-24322cdb78f3"
-          />
-          <!-- Required -->
-          <input type="submit" value="Submit" />
-        </form>
       </div>
     </section>
   </div>
