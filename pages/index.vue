@@ -131,12 +131,17 @@
             />
             <div class="field">
               <label class="label">Nom</label>
-              <input type="text" name="name" placeholder="Mon nom" />
+              <input type="input" name="name" placeholder="Mon nom" />
             </div>
             <div class="field">
               <label class="label">Email</label>
               <div class="control has-icons-right">
-                <input type="email" name="email" placeholder="XXX@xxx.com" />
+                <input
+                  class="input"
+                  type="email"
+                  name="email"
+                  placeholder="XXX@xxx.com"
+                />
                 <span class="icon is-small is-left">
                   <i class="fas fa-envelope"></i>
                 </span>
