@@ -166,6 +166,18 @@
             </div>
           </form>
         </div>
+
+        <!-- Test formulaire -->
+        <form action="https://api.staticforms.xyz/submit" method="post">
+          <!-- Replace with accesKey sent to your email -->
+          <input
+            type="hidden"
+            name="accessKey"
+            value="e44fc5d0-0b52-4cb1-9f79-fefc3800d89c"
+          />
+          <!-- Required -->
+          <input type="submit" value="Submit" />
+        </form>
       </div>
     </section>
   </div>
