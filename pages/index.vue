@@ -131,7 +131,7 @@
             />
             <div class="field">
               <label class="label">Nom</label>
-              <input type="input" name="name" placeholder="Mon nom" />
+              <input class="input" name="name" placeholder="Mon nom" />
             </div>
             <div class="field">
               <label class="label">Email</label>
