@@ -126,8 +126,8 @@
           <form action="https://api.staticforms.xyz/submit" method="post">
             <input
               type="hidden"
-              name="a958579f-3736-46f5-b722-24322cdb78f3"
-              value="e44fc5d0-0b52-4cb1-9f79-fefc3800d89c"
+              name="accessKey"
+              value="a958579f-3736-46f5-b722-24322cdb78f3"
             />
             <div class="field">
               <label class="label">Nom</label>
@@ -172,8 +172,8 @@
           <!-- Replace with accesKey sent to your email -->
           <input
             type="hidden"
-            name="a958579f-3736-46f5-b722-24322cdb78f3"
-            value="e44fc5d0-0b52-4cb1-9f79-fefc3800d89c"
+            name="accessKey"
+            value="a958579f-3736-46f5-b722-24322cdb78f3"
           />
           <!-- Required -->
           <input type="submit" value="Submit" />
