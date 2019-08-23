@@ -14,7 +14,17 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      /* {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Amatic+SC'
+      }, */
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Beth+Ellen'
+      }
+    ]
   },
   /*
    ** Customize the progress-bar color
@@ -23,11 +33,11 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['@fortawesome/fontawesome-svg-core/styles.css'],
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: ['~/plugins/fontawesome.js'],
   /*
    ** Nuxt.js dev-modules
    */
@@ -46,6 +56,10 @@ export default {
    ** Build configuration
    */
   build: {
+    filenames: {
+      app: ({ isDev }) => (isDev ? '[name].[hash].js' : '[chunkhash].js'),
+      chunk: ({ isDev }) => (isDev ? '[name].[hash].js' : '[chunkhash].js')
+    },
     postcss: {
       preset: {
         features: {

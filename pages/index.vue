@@ -5,7 +5,7 @@
         <div class="navbar-end">
           <a class="navbar-item" href="#accueil">Accueil</a>
           <a class="navbar-item" href="#apropos">A propos</a>
-          <a class="navbar-item" href="#moncv">Mon CV</a>
+          <a class="navbar-item" href="#mescompetences">Mes compétences</a>
           <a class="navbar-item" href="#mesprojets">Mes projets</a>
           <a class="navbar-item" href="#contact">Contact</a>
         </div>
@@ -20,12 +20,26 @@
       <h2>A propos</h2>
       <h3>Leïla Coquard, 31 ans, en reconversion professionnelle</h3>
       <h4>Développeuse web Junior</h4>
-      <p>Après des études en statistiques, spécialisée en actuariat, j'ai intégré le milieu professionnel en tant qu'actuaire pendant 6 ans. Cette expérience a eu pour effet de me faire murrir, de développer mon sens du travail bien fait et d'apprivoiser les relations humaines en entreprise. Ces 6 ans fut entrecoupé d'un voyage d'un an autour du monde. C'est fou tout ce qu'on peut apprendre pendant un voyage, repenser complétement ses schemas de pensées. blabla...</p>
-      <a class="button is-primary" href="../components/CV-DevFront-LCoquard2019.pdf">Mon CV</a>
+      <p>
+        Après des études en statistiques, spécialisée en actuariat, j'ai intégré
+        le milieu professionnel en tant qu'actuaire pendant 6 ans. Cette
+        expérience a eu pour effet de me faire murrir, de développer mon sens du
+        travail bien fait et d'apprivoiser les relations humaines en entreprise.
+        Ces 6 ans fut entrecoupé d'un voyage d'un an autour du monde. C'est fou
+        tout ce qu'on peut apprendre pendant un voyage, repenser complétement
+        ses schemas de pensées. blabla...
+      </p>
+      <a
+        class="button is-primary"
+        href="/CV-DevFront-LCoquard2019.pdf"
+        target="_blank"
+        >Mon CV</a
+      >
     </section>
     <hr />
-    <section id="moncv">
-      <h2>Mon CV</h2>
+    <section id="mescompetences">
+      <h2>Mes compétences</h2>
+      <p><fa-icon icon="map-marker-alt"></fa-icon></p>
     </section>
     <hr />
 
@@ -49,8 +63,7 @@
             </div>
 
             <div class="content">
-              Intégrez un thème Wordpress pour un client
-              <br />
+              <p>Intégrez un thème Wordpress pour un client</p>
               <a href="https://chaletsetcaviar.leilacoquard.fr">Site</a>
               <br />
               <time datetime="2018-11-1">Novembre 2018</time>
@@ -74,8 +87,10 @@
             </div>
 
             <div class="content">
-              Ce projet consiste à créer un jeu en ligne en JavaScript dans lequel 2 joueurs évoluent chacun leur tour pour s'affronter.
-              <br />
+              <p>
+                Ce projet consiste à créer un jeu en ligne en JavaScript dans
+                lequel 2 joueurs évoluent chacun leur tour pour s'affronter.
+              </p>
               <a href="http://www.projet6.leilacoquard.fr">Site</a>
               <br />
               <time datetime="2019-3-1">Mars 2019</time>
@@ -92,52 +107,69 @@
       <div id="general-contact">
         <div id="detail-contact">
           <p>Leïla Coquard</p>
-          <p>Montreuil, France</p>
           <p>
-            <font-awesome-icon icon="phone-alt" />07.68.51.99.89.
+            <fa-icon icon="map-marker-alt"></fa-icon>
+            Montreuil, France
           </p>
           <p>
-            <font-awesome-icon icon="paper-plane" />leilacoquard@gmail.com
+            <fa-icon icon="phone-alt"></fa-icon>
+            07.68.51.99.89
+          </p>
+          <p>
+            <fa-icon icon="envelope"></fa-icon>
+            leilacoquard@gmail.com
           </p>
         </div>
+
+        <!-- Formulaire de contact -->
         <div id="form-contact">
-          <div class="field">
+          <form action="https://api.staticforms.xyz/submit" method="post">
+            <input
+              type="hidden"
+              name="a958579f-3736-46f5-b722-24322cdb78f3"
+              value="e44fc5d0-0b52-4cb1-9f79-fefc3800d89c"
+            />
             <label class="label">Nom</label>
-            <div class="control">
-              <input class="input" type="text" placeholder="Mon nom" />
-            </div>
-          </div>
-          <div class="field">
+            <input type="text" name="name" placeholder="Mon nom" />
             <label class="label">Email</label>
-            <div class="control has-icons-right">
-              <input class="input" type="email" placeholder="XXX@xxx.com" />
-              <span class="icon is-small is-left">
-                <i class="fas fa-envelope"></i>
-              </span>
-              <span class="icon is-small is-right">
-                <i class="fas fa-exclamation-triangle"></i>
-              </span>
-            </div>
-          </div>
-          <div class="field">
+            <input type="email" name="email" placeholder="XXX@xxx.com" />
+            <!-- <div class="field">
+              <label class="label">Email</label>
+              <div class="control has-icons-right">
+                <input class="input" type="email" placeholder="XXX@xxx.com" />
+                <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+                <span class="icon is-small is-right">
+                  <i class="fas fa-exclamation-triangle"></i>
+                </span>
+              </div>
+            </div> -->
             <label class="label">Message</label>
-            <div class="control">
-              <textarea class="textarea" placeholder="Je vous contacte pour ..."></textarea>
+            <textarea class="textarea"></textarea>
+            <!-- placeholder="Je vous contacte pour ..." -->
+            <!-- <div class="field">
+              <label class="label">Message</label>
+              <div class="control">
+                <textarea
+                  class="textarea"
+                  placeholder="Je vous contacte pour ..."
+                ></textarea>
+              </div>
+            </div> -->
+            <div class="field is-grouped">
+              <div class="control">
+                <button class="button is-primary" type="submit">Envoyer</button>
+              </div>
             </div>
-          </div>
-          <div class="field is-grouped">
-            <div class="control">
-              <button class="button is-primary">Submit</button>
-            </div>
-          </div>
+          </form>
         </div>
       </div>
     </section>
   </div>
 </template>
 
-<script>
-</script>
+<script></script>
 
 <style>
 .container {
@@ -160,18 +192,18 @@
 }
 
 .title-presentation {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Beth Ellen', Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 70px;
+  font-size: 100px;
   color: #35495e;
   letter-spacing: 1px;
 }
 
 .subtitle-presentation {
+  font-family: 'Beth Ellen', Arial, sans-serif;
   font-weight: 300;
-  font-size: 40px;
+  font-size: 50px;
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
@@ -196,10 +228,22 @@ h2 {
 }
 
 #accueil {
+  padding: 100px;
+  position: relative;
+}
+#accueil::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.3;
   background-image: url('../components/img-dev.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px;
 }
 
 #apropos p {
@@ -224,7 +268,7 @@ h2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.card-image {
+.card-image img {
   height: 200px;
 }
 
@@ -241,7 +285,7 @@ h2 {
 
 #form-contact {
   margin: 10px;
-  width: 60%;
+  width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
